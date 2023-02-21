@@ -146,7 +146,6 @@ footer {
 
 .header-container {
     display: flex;
-    padding-left: 215px;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
 }
@@ -154,6 +153,7 @@ footer {
 .header-section {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .navigation-block {
@@ -190,16 +190,16 @@ footer {
 
 .project-main-section {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
+    justify-content: center;
 }
 
 .projects-list {
     gap: 30px;
 }
 
+
 .projects-list li h3 {
-    margin: 20px 24px 0px 24px;
+    margin: 0px 24px 0px 24px;
 }
 
 .projects-list li p {
@@ -207,22 +207,34 @@ footer {
 }
 
 .projects-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+.border-line {
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    border-top: 0;
+    padding-top: 0;
+
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.footer-logo {
-    padding: 60px 1240px 28px 215px;
-}
+.footer-logo {}
 
 .addres-list {
-    padding-left: 215px;
+    display: flex;
     gap: 12px;
     display: flex;
     flex-direction: column;
@@ -233,6 +245,7 @@ footer {
     background: #2F303A;
     height: 600px;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -267,11 +280,11 @@ footer {
 
 .abilities-section {
     display: flex;
+    justify-content: center;
 }
 
 .abilities-container {
     display: flex;
-    padding-left: 215px;
 }
 
 .abilities {
