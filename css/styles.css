@@ -145,7 +145,6 @@ footer {
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .header-section {
@@ -153,6 +152,7 @@ footer {
     width: 100%;
     justify-content: center;
     height: 80px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .navigation-block {
@@ -297,9 +297,30 @@ footer {
     justify-content: space-around;
 }
 
+.abilities li h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.abilities li p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 .what-we-do-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 94px;
 }
 
 .what-we-do-container {
@@ -352,4 +373,5 @@ footer {
 .our-team-photo li p {
     display: flex;
     justify-content: center;
+    color: #757575;
 }
