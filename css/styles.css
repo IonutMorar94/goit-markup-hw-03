@@ -33,6 +33,8 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
+    margin-top: 60px;
+    margin-bottom: 28px;
 }
 
 .second-footer-studio {
@@ -123,10 +125,6 @@ footer {
     color: #2196F3;
 }
 
-.project-list-container {
-    width: 1200px;
-}
-
 .projects-list {
     display: flex;
     flex-direction: row;
@@ -154,6 +152,7 @@ footer {
     display: flex;
     width: 100%;
     justify-content: center;
+    height: 80px;
 }
 
 .navigation-block {
@@ -193,13 +192,18 @@ footer {
     justify-content: center;
 }
 
+.project-list-container {
+    display: flex;
+}
+
 .projects-list {
     gap: 30px;
+    justify-content: space-between;
 }
 
 
 .projects-list li h3 {
-    margin: 0px 24px 0px 24px;
+    margin: 20px 24px 0px 24px;
 }
 
 .projects-list li p {
@@ -231,13 +235,12 @@ footer {
     justify-content: center;
 }
 
-.footer-logo {}
-
 .addres-list {
     display: flex;
     gap: 12px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 
 /* Studio Style*/
@@ -276,6 +279,7 @@ footer {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     padding: 10px 19px 10px 20px;
+    margin-top: 30px;
 }
 
 .abilities-section {
@@ -290,45 +294,62 @@ footer {
 .abilities {
     display: flex;
     gap: 30px;
+    justify-content: space-around;
 }
 
 .what-we-do-section {
     display: flex;
+    justify-content: center;
 }
 
 .what-we-do-container {
     display: flex;
     flex-direction: column;
-    padding-left: 215px;
 }
 
 .what-we-do-photo {
     display: flex;
     gap: 30px;
+    justify-content: space-around;
 }
 
 .what-we-do-title {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .our-team-section {
     display: flex;
     background: #F5F4FA;
+    justify-content: center;
 }
 
 .our-team-container {
     display: flex;
     flex-direction: column;
-    padding-left: 215px;
 }
 
 .our-team-title {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .our-team-photo {
     display: flex;
     gap: 30px;
+    justify-content: space-around;
+}
+
+.our-team-photo li h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.our-team-photo li p {
+    display: flex;
+    justify-content: center;
 }
